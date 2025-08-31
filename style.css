@@ -1,0 +1,75 @@
+.maincontainer{
+  background-image: url(https://cdn.theanimegallery.com/theanimegallery/ced21787-04df-417a-8246-196c0fc833f7-anime-cute-wallpaper.webp);
+  background-size: cover;
+  
+}
+
+.chat-card {
+  max-width: 600px;
+  margin: 0 auto;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-box {
+  flex: 1;
+  overflow-y: auto;
+  padding: 15px;
+  background-color: black;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  max-width: 75%;
+}
+
+
+.message.user {
+  background-color: #8395a1;
+  display: flex;
+  justify-content: right;
+  color: white;
+}
+
+.message.bot {
+  background-color: #0f613b;
+  display: flex;
+  justify-content: right;
+}
+#main-cont{
+  margin-top: 300px;
+}
+.blur-card {
+            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent */
+            backdrop-filter: blur(10px); /* Blur effect */
+            -webkit-backdrop-filter: blur(10px); /* Safari support */
+            border: 1px solid rgba(13, 232, 184, 0.2);
+            color: rgb(97, 108, 11);
+}
+#card1{
+  background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/rainbow-3d-transparent-png-isolated-element-free-image.png?w=600&quality=80);
+  border-radius: 30px;
+  background-size: cover;
+}
+.body-main{
+  background-color: black;
+  background-size: cover;
+  height: 40vh;
+  margin-top: -200px;
+}
+#a-tag{
+  text-decoration: none;
+  margin-top: 40px;
+}
+#a-tag:hover{
+  text-decoration: underline;
+}
+#a-1{
+  border: none;
+}
+#chat-side{
+  border-radius: 40px;
+}
